@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+:root{
+    font-size: 62.5%;
+    --color-base-text: #121214;
+    --color-base-white: #ffffff;
+    --color-base-gray-100: #f4fcff;
+    --color-base-blue-100: #387e96;
+    --color-base-blue-300: #065e7c;
+}
+
+html, body, input{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    font-weight: 400;
+    background: var(--color-base-white);
+    color: var(--color-base-text);
+}
+
+input{
+    height: 23px;
+    border-radius: 10%;
+}
+
+
+.input-wrapper label{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+.input-wrapper label{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.avatar{
+    object-fit: cover;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: var(--color-base-blue-300);
+    align-items: center;
+    gap: 2.6rem;
+    padding: 1.6rem 3.2rem;
+}
+
+header form{
+    flex: 1;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper label{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.form-wrapper input{
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+    background-color: var(--color-base-blue-100);
+    border: 0;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+}
+
+
+
+main img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    height: 100vh;
+}
+
+.main-post, .container{
+    padding: 2rem;
+}
+
+.main-post button{
+    width: 4rem;
+    padding: ;
+    border-radius: ;
+    border: 0;
+    align-items: center;
+    background-color: var(--color-base-blue-300);
+}
+
+h1, h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--color-base-text);
+}
+
+.post-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.6rem;
+    margin: 3.2rem 0;
+}
+
+.post-content img{
+    width: 150px;
+    height: 85px;
+    object-fit: cover;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+.post-content p{
+    font-size: 1.4rem;
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.6rem;
+    text-align: center;
+    height: 6.4rem;
+}
